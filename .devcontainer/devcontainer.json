@@ -1,0 +1,15 @@
+{
+  // "image": "ruby:3.3.0-alpine",
+  "build": { "dockerfile": "../Dockerfile" },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-azuretools.vscode-docker",
+        "Shopify.ruby-extensions-pack",
+        "Shopify.ruby-lsp",
+        "castwide.solargraph",
+        "KoichiSasada.vscode-rdbg"
+      ]
+    }
+  }
+}
