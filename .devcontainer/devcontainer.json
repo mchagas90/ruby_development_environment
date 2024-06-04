@@ -1,7 +1,7 @@
 {
   // "image": "ruby:3.3.0-alpine",
   "build": {
-    "dockerfile": "../Dockerfile",
+    "dockerfile": "../Dockerfile"
   },
   // "name": "[Optional] Your project name here",
   // "dockerComposeFile": "../docker-compose.yml",
