@@ -1,6 +1,14 @@
 {
   // "image": "ruby:3.3.0-alpine",
-  "build": { "dockerfile": "../Dockerfile" },
+  "build": {
+    "dockerfile": "../Dockerfile",
+  },
+  // "name": "[Optional] Your project name here",
+  // "dockerComposeFile": "../docker-compose.yml",
+  // "service": "the-name-of-the-service-you-want-to-work-with-in-vscode",
+  // "workspaceFolder": "/default/workspace/path/in/container/to/open",
+  // "shutdownAction": "stopCompose"
+  "workspaceFolder": "/app",
   "customizations": {
     "vscode": {
       "extensions": [
